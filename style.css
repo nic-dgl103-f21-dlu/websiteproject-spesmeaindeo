@@ -19,12 +19,20 @@ header {
   margin: 0 auto;
   color: #000000;
   align-content: flex-end;
-
 } /* partial span in grid of viewport with line 1 to 5 for Full span. Kept consistent across all pages*/
 
+h1,
+p,
+a{
+  margin: 0;
+  padding: 0;
+  font-family:'Merriweather', serif;/*FIND A SECOND FAMILY FONT SIMILAR TO WHAT HE USES!!!!!!*/
+}
+
 .logo {
-	display: flex;
-  }
+	display: inline-flex;
+  align-items: left;
+  }/*Trying to align logo to the left*/
   
 img {
 	margin: 20px;
