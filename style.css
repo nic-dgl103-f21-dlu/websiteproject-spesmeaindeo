@@ -160,6 +160,120 @@ contact {
     border-width: 1px;
     }
 
+  /*Contact Box*/
+
+  /* STYLES ----------------------------------
+1. Global settings (resets such as border-box)
+2. Typography (headings, paragraphs, lists, buttons)
+3. Layout structure (body, header, footer, sidebar)
+4. Content blocks (cards, tables, forms, calls-to-action block)
+5. General classes (.clear, .center, .right, .left, .big-margin, etc.)
+6. Page-specific (styles specific to individual locations)
+-----------------------------------------------------*/
+
+/* ===============
+   GLOBAL SETTINGS
+   =============== */
+
+* {
+  box-sizing: border-box;
+}
+
+/* ===============
+   TYPOGRAPHY
+   =============== */
+
+body {
+  font-family: sans-serif;
+}
+
+/* ===============
+   BUTTONS
+   =============== */
+
+input[type="reset"] {
+  color: blue;
+  padding: 12px 20px;
+  border: 1px solid blue;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  background-color: #d1efe3;
+}
+
+input[type="submit"] {
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid blue;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(103, 153, 219);
+}
+
+/* ===============
+   STRUCTURE
+   =============== */
+
+.wrapper-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.wrapper-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ===============
+   FORM CONTROLS
+   =============== */
+
+input,
+select,
+textarea {
+  font-size: 1em;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+textarea {
+  font-family: sans-serif;
+}
+
+.label-required {
+  font-size: 0.8rem;
+  color: blue;
+}
+
 /*End of Contact CSS*/
 
 /*Call Button*/

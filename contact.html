@@ -5,7 +5,7 @@
     <title>Contact Us</title>
     <meta charset="utf-8">
 
-    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css"><!--stylesheet link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,9 +14,11 @@
 
 
 <body id="contact"><!--body id used for page styling as to not effect other pages-->
-    <header>
-        <img src="Images\Peak Power Logo-01.png" height="100" width="100" alt="Peak Power Electrical Logo">
-    </header>
+    <div id="wrapper">
+<header>
+        <img src="Images\Peak Power Logo-01.png" height="100" width="100" alt="Peak Power Electrical Logo"></a>
+        <h1>PEAK POWER ELECTRICAL LTD</h1>
+</header>
 
 <nav>
         <div class="wrapper">
@@ -30,10 +32,36 @@
 </nav>
 
 <main>
-        <p>Peak Power Electrical Ltd is dedicated to professional and detailed practices of residential and commercial electrical. Let the pro's keep you powered, safe and to code.</p> &nbsp;
-
-        <p>Serving Campbell River and surrounding areas since </p>
+    <p>Peak Power Electrical Ltd is dedicated to professional and detailed practices of residential and commercial electrical. Let the pro's keep you powered, safe and to code.</p> &nbsp;
+    <p>Serving Campbell River and surrounding areas since 2015. Locally owned and operated.</p>
 </main>
+
+<div class="wrapper-form">
+    <h2>Contact Form</h2>
+    <form method="post" action="https://learndigital.dev/programs/dgl103-form.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Ex: Mike">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Ex: Smith">
+  
+      <label for="email">Email <span class="label-required">* (required)</span></label>
+      <input type="email" id="email" name="email" placeholder="Ex: mike@yahoo.com" required>
+   
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Please tell us a little about your enquiry" style="height:200px"></textarea>
+  
+      <div class="wrapper-button">
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+  
+  <p><b>Bring your projects to life! Send us a message today!<b></p>
+  <form action="https://en.wikipedia.org/">
+    <button type="submit">Visit Wikipedia</button>
+  </form>
 
 <footer>
     <div class="wrapper">
