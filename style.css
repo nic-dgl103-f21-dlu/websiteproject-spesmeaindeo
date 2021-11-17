@@ -150,7 +150,7 @@ footer .wrapper {
 
 /*Start of Contact CSS*/
 
-contact {
+#contact {
     background-image: url(\images\person-3062271.jpg); /*image from pewels*/
     background-attachment:fixed;
     background-position: center;
