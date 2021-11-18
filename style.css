@@ -26,7 +26,7 @@ header .toppage {
 } /* partial span in grid of viewport with line 1 to 5 for Full span. Kept consistent across all pages*/
 
 .blockquote {
-  font-family:'Merriweather', serif;/*second font for header that is similar to what he uses*/
+  font-family:'Merriweather', serif;/*second font for body that is similar to what he uses*/
 }
 
 .logo {
@@ -43,7 +43,6 @@ img {
 
 nav {
   grid-column:1/5;
-  position: fixed; /*nav bar stays even when scrolling*/
 	font-family: 'Nunito semi-bold 600', sans-serif, ;
   font-size: 16pt;
 	background-color: #1f72aaa1;
@@ -51,8 +50,8 @@ nav {
   }
 
   nav .menu {/*nav wrapper renamed due to conflict within css*/
-	width: auto;
-	margin: 0 auto;	
+	width: 100%;
+	margin: 0;	
   }
 
   nav ul {
@@ -134,7 +133,6 @@ footer .wrapper2 {
 /*Start of Services CSS*/
 
 #services {
-    background-image: url(\Images\pexels-la-miko-3615732.jpg); /*image from pexels*/
     background-attachment:fixed;
     background-position: center;
     background-repeat:no-repeat;
@@ -150,7 +148,7 @@ footer .wrapper2 {
         border-radius: 30px;
         width:100%;
         box-sizing: border-box;
-        margin: 15px;
+        margin: 5px;
       }
       
 #services .wrapper3 img { width: 100%; }
