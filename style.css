@@ -148,16 +148,24 @@ footer .wrapper {
     border-width: 1px;
     }
 
-#gallery {
-  display: flex;
-  flex-direction: row;
-  flex-wrap:wrap;
-  justify-content:space-around;
+main .wrapper {
+    background-color: #f3f3f4;
+    padding: 15px;
+    border: 1px solid #aaaaaa;
+    border-radius: 30px;
+    float: left;
+    width: calc(33.33% - 30px);
+    box-sizing: border-box;
+    margin: 15px;
+    position: relative;
+    box-shadow: 5px 5px rgb(153, 212, 223);
+  }
+  
 }
   
-#services img {
-	margin: 1em;
-  box-shadow: 5px 5px rgb(153, 212, 223);
+.wrapper img {
+  width:100%;
+  
   }
 /*End of Services CSS*/
 
