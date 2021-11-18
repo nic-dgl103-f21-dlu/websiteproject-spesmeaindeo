@@ -1,12 +1,10 @@
 /*Start of Consitency across all pages*/
 
-* { box-sizing: border-box;
-
-} 
+* { box-sizing: border-box;} 
 
 body {
   
-  grid-column:span;
+  grid-column:1/5;
   font-family: 'Nunito', sans-serif; /*main font used*/
   font-size: 16pt;
   margin: 0 auto;
@@ -53,7 +51,7 @@ nav {
   }
 
   nav .menu {/*nav wrapper renamed due to conflict within css*/
-	width: 800px;
+	width: auto;
 	margin: 0 auto;	
   }
 
@@ -94,7 +92,7 @@ nav {
 footer {
   grid-column:1/5;
   margin: 0 auto;
-  width: 800px;
+  width: auto;
   background-color: #1f72aaa1;
   color: black;
 }
@@ -145,18 +143,17 @@ footer .wrapper2 {
     border-width: 1px;
     }
 
-#services .wrapper { /*Services Boxes*/
+#services .wrapper3 { /*Services Boxes*/
         background-color: #f3f3f4;
-        padding: 15px;
+        padding: 10px;
         border: 1px solid #aaaaaa;
         border-radius: 30px;
-        float: left;
-        width: calc(33.33% - 30px);
+        width:100%;
         box-sizing: border-box;
         margin: 15px;
       }
       
-#services .wrapper img { width: 100%; }
+#services .wrapper3 img { width: 100%; }
   
 
 /*End of Services CSS*/
