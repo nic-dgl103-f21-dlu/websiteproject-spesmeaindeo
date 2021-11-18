@@ -11,7 +11,7 @@ body {
   font-weight: bolder;
 }
 
-header { 
+header .toppage{ 
   position: fixed;/*stays in position when scolling*/
   font-family: 'Nunito', sans-serif;
   grid-column:1/5;
@@ -51,7 +51,7 @@ nav {
 	color: #00060a;
   }
 
-  nav .wrapper {
+  nav .menu {/*nav wrapper renamed due to conflict within css*/
 	width: 800px;
 	margin: 0 auto;	
 	flex-wrap: nowrap;
@@ -190,22 +190,6 @@ footer .wrapper {
 
 /* ===============
    GLOBAL SETTINGS
-   =============== */
-
-* {
-  box-sizing: border-box;
-}
-
-/* ===============
-   TYPOGRAPHY
-   =============== */
-
-body {
-  font-family: sans-serif;
-}
-
-/* ===============
-   BUTTONS
    =============== */
 
 input[type="reset"] {
