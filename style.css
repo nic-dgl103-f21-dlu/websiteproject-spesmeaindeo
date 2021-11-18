@@ -7,7 +7,7 @@ body {
   font-family: 'Nunito', sans-serif; /*main font used*/
   font-size: 16pt;
   margin: 0 auto;
-  width:fit-content;
+  width:800px;
   color: black;
   font-weight: bolder;
 }
