@@ -1,36 +1,33 @@
 /*Start of Consitency across all pages*/
 
-* { box-sizing: border-box; } 
+* { box-sizing: border-box;
+
+} 
 
 body {
   
-  grid-column:1/5;
+  grid-column:span;
   font-family: 'Nunito', sans-serif; /*main font used*/
   font-size: 16pt;
   margin: 0 auto;
   width:fit-content;
-  color: whitesmoke;
+  color: black;
   font-weight: bolder;
 }
 
-header .toppage{ 
-  position: top fixed;
+header .toppage { 
+  position: top;
   font-family: 'Nunito', sans-serif;
   grid-column:1/5;
-  padding: 30px;
+  padding: 10px;
   text-decoration: none;
   width: 800px;
-  margin: 0 auto;
+  margin: 0;
   background-color: #1f72aaa1;
   color:#00060a
 } /* partial span in grid of viewport with line 1 to 5 for Full span. Kept consistent across all pages*/
 
-h1,
-p,
-a{
-  margin: 0 auto;
-  width:800px;
-  padding: 0;
+.blockquote {
   font-family:'Merriweather', serif;/*second font for header that is similar to what he uses*/
 }
 
@@ -50,7 +47,7 @@ nav {
   grid-column:1/5;
   position: fixed; /*nav bar stays even when scrolling*/
 	font-family: 'Nunito semi-bold 600', sans-serif, ;
-  font-size: 1.5em;
+  font-size: 16pt;
 	background-color: #1f72aaa1;
 	color: #00060a;
   }
@@ -58,12 +55,11 @@ nav {
   nav .menu {/*nav wrapper renamed due to conflict within css*/
 	width: 800px;
 	margin: 0 auto;	
-	flex-wrap: nowrap;
   }
 
   nav ul {
 	list-style-type: none;
-	overflow: auto;
+	overflow: visible;
   text-align: center;
 	margin: 5px;
 	padding: 1;
@@ -72,7 +68,7 @@ nav {
   nav li { display: inline; }
   
   nav li a { 
-	padding: 15px;
+	padding: 10px;
 	display: inline-block;
 	text-decoration: none;
 	color: #191645;
@@ -88,7 +84,7 @@ nav {
 
 /*Flex container in "services" page*/
 
-  .flex-container{
+  .flex-container {
       display: flex;
       flex-direction: row;
   }
@@ -103,8 +99,8 @@ footer {
   color: black;
 }
 
-footer .wrapper {
-  align-content: space-around;
+footer .wrapper2 {
+  justify-content: center;
 }
 /*End of footer*/
 
