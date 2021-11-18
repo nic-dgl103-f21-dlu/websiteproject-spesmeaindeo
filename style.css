@@ -6,7 +6,9 @@ body {
   grid-column:1/5;
   font-family: 'Nunito', sans-serif; /*main font used*/
   font-size: 16pt;
-  margin: 0 auto;
+  margin: auto;
+  display:flex;
+  align-items:left;
   width:800px;
   color: black;
   font-weight: bolder;
@@ -50,17 +52,18 @@ nav {
 	color: #00060a;
   }
 
-  nav .menu {/*nav wrapper renamed due to conflict within css*/
-	width: 100%;
-	margin: 0;	
+  nav .wrapper {/*nav wrapper renamed due to conflict within css*/
+	width: 800px;
+	margin: auto;
+  padding: 0 15px;
   }
 
   nav ul {
-	list-style-type: none;
-	overflow: visible;
-  text-align: center;
-	margin: 5px;
-	padding: 1;
+  display:flex;
+	justify-content:space-between;
+  list-style-type: none;
+	margin: 0;
+	padding: 0;
   }
   
   nav li { display: inline; }
@@ -98,8 +101,10 @@ footer {
   color: black;
 }
 
-footer .wrapper2 {
-  justify-content: center;
+footer .wrapper {
+  width:800px;
+  margin:auto;
+  padding:10px;
 }
 /*End of footer*/
 
