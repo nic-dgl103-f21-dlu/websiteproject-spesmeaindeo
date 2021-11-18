@@ -3,7 +3,6 @@
 * { box-sizing: border-box;} 
 
 body {
-  
   grid-column:1/5;
   font-family: 'Nunito', sans-serif; /*main font used*/
   font-size: 16pt;
@@ -26,11 +25,11 @@ header .toppage {
   width: 800px;
   margin: 0;
   background-color: #1f72aaa1;
-  color:#00060a
+  color:black;
 } /* partial span in grid of viewport with line 1 to 5 for Full span. Kept consistent across all pages*/
 
-.blockquote {
-  font-family:'Merriweather', serif;/*second font for body that is similar to what he uses*/
+p {
+  font-family:'Merriweather', serif;/*second font for body that is similar to what is already used to keep consistency*/
 }
 
 .logo {
@@ -38,9 +37,7 @@ header .toppage {
   align-items: left;
   }/*Trying to align logo to the left*/
   
-img {
-	margin: 20px;
-  }
+
 
 /* start navigation  Kept consistent across all pages*/
 
@@ -146,19 +143,17 @@ footer .wrapper2 {
     border-width: 1px;
     }
 
-#services .wrapper3 { /*Services Boxes*/
-        background-color: #f3f3f4;
-        padding: 10px;
-        border: 1px solid #aaaaaa;
-        border-radius: 30px;
-        width:100%;
-        box-sizing: border-box;
-        margin: 5px;
-      }
-      
-#services .wrapper3 img { width: 100%; }
+#gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
   
-
+#services img {
+	margin: 1em;
+  box-shadow: 5px 5px rgb(153, 212, 223);
+  }
 /*End of Services CSS*/
 
 /*Start of Contact CSS*/
