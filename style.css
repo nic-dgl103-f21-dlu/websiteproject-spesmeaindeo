@@ -3,23 +3,24 @@
 * { box-sizing: border-box; } 
 
 body {
-  font-family: 'Nunito', sans-serif; 
+  font-family: 'Nunito', sans-serif; /*main font used*/
   font-size: 16pt;
   margin: 0 auto;
   width:fit-content;
-  color: #191645;
+  color: whitesmoke;
   font-weight: bolder;
 }
 
 header { 
+  position: fixed;/*stays in position when scolling*/
   font-family: 'Nunito', sans-serif;
   grid-column:1/5;
   padding: 30px;
   text-decoration: none;
   width: 800px;
   margin: 0 auto;
-  color: #000000;
-  align-content: flex-end;
+  background-color: #1f72aaa1;
+  color:#00060a
 } /* partial span in grid of viewport with line 1 to 5 for Full span. Kept consistent across all pages*/
 
 h1,
@@ -43,8 +44,9 @@ img {
 /* start navigation  Kept consistent across all pages*/
 
 nav {
+  position: fixed; /*nav bar stays even when scrolling*/
 	font-family: 'Nunito semi-bold 600', sans-serif, ;
-    font-size: 16pt;
+  font-size: 1.5em;
 	background-color: #1f72aaa1;
 	color: #00060a;
   }
@@ -58,17 +60,20 @@ nav {
   nav ul {
 	list-style-type: none;
 	overflow: auto;
-	margin: 0;
-	padding: 0;
+  text-align: center;
+	margin: 5px;
+	padding: 1;
   }
   
-  nav li { float:left; }
+  nav li { display: inline; }
   
   nav li a { 
 	padding: 15px;
 	display: inline-block;
 	text-decoration: none;
 	color: #191645;
+  padding-left: 10px;
+  padding-right: 10px;
   }
   
   nav li a:hover { 
