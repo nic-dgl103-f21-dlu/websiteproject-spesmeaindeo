@@ -14,6 +14,10 @@ body {
 }
 
 header .toppage { 
+  background-image: url(lightbulb with dock and seagull.jpg);
+  background-repeat: none;
+  background-position: center;
+  background-color: #1f72aaa1;
   position: top;
   font-family: 'Nunito', sans-serif;
   grid-column:1/5;
@@ -89,6 +93,7 @@ nav {
 /*Beginning of Footer*/
 
 footer {
+  text-align: center;
   grid-column:1/5;
   margin: 0 auto;
   width: auto;
