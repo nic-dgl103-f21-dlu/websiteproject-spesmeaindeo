@@ -6,6 +6,7 @@ body {
   font-family: 'Nunito', sans-serif; 
   font-size: 16pt;
   margin: 0 auto;
+  width:fit-content;
   color: #191645;
   font-weight: bolder;
 }
@@ -24,7 +25,8 @@ header {
 h1,
 p,
 a{
-  margin: 0;
+  margin: 0 auto;
+  width:800px;
   padding: 0;
   font-family:'Merriweather', serif;/*second font for header that is similar to what he uses*/
 }
@@ -85,6 +87,8 @@ nav {
 /*Beginning of Footer*/
 
 footer {
+  margin: 0 auto;
+  width: 800px;
   grid-column: 1/5;
   clear: both;
   background-color: #1f72aaa1;
@@ -92,7 +96,7 @@ footer {
 }
 
 footer .wrapper {
-    grid-column: 1/3;
+  grid-column: 1/3;
   width: 800px;
   margin: 0 auto;
   padding: 15px;
