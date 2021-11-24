@@ -14,8 +14,8 @@ body {
   font-weight: bolder;
 }
 
-header .toppage { 
-  background-image: url(lightbulb with dock and seagull.jpg);
+.img-container { 
+  background-image: url("lightbulb with dock and seagull.jpg");
   background-repeat: none;
   background-position: center;
   background-color: #1f72aaa1;
@@ -28,21 +28,48 @@ header .toppage {
   margin: 0;
   background-color: #1f72aaa1;
   color:black;
-} /* partial span in grid of viewport with line 1 to 5 for Full span. Kept consistent across all pages*/
+} 
+
+.inner-container{
+  text text-align: center;
+  position:absolute;
+  width: 100%;
+  color: white;
+  height: auto;
+  margin-top: 200px;
+}
+/* partial span in grid of viewport with line 1 to 5 for Full span. Kept consistent across all pages*/
+
+h1 {
+  font font-size: 7em;
+  font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+  margin-top: -17px;
+  font-family: 'Nunito', serif; 
+  font font-size: 2em;
+  text-align: center;
+  font-weight:300;
+}
+
+.header{
+  
+}
+
+.img {
+  width: auto;
+  height: 60px;
+	display: inline-block;
+  float: left;
+  margin: 15px;
+  }/*Trying to align logo to the left*/
 
 p {
   font-family:'Merriweather', serif;/*second font for body that is similar to what is already used to keep consistency*/
 }
 
-.logo {
-	display: inline-flex;
-  align-items: left;
-  }/*Trying to align logo to the left*/
-  
-
-
 /* start navigation  Kept consistent across all pages*/
-
 
 nav {
   grid-column:1/5;
@@ -120,7 +147,7 @@ footer .wrapper {
     background-size: cover;
     border-color:  rgb(59, 195, 230);
     border-width: 1px;
-    }
+}
 /*End of Index CSS*/
 
 /*Start of About CSS*/
@@ -133,7 +160,7 @@ footer .wrapper {
     background-size: cover;
     border-color:  rgb(59, 195, 230);
     border-width: 1px;
-    }
+}
 
 /*End of About CSS*/
 
@@ -146,7 +173,7 @@ footer .wrapper {
     background-size: cover;
     border-color:  rgb(59, 195, 230);
     border-width: 1px;
-    }
+}
 
 main .wrapper {
     background-color: #f3f3f4;
@@ -159,11 +186,22 @@ main .wrapper {
     margin: 15px;
     position: relative;
     box-shadow: 5px 5px rgb(153, 212, 223);
-  }
+}
   
-.services-wrapper {
-  width:100%;
-  }
+#services .wrapper {/*Used for image sizing and orientation on services page*/
+    background-color: #f3f3f4;
+    padding: 15px;
+    border: 1px solid #aaaaaa;
+    border-radius: 30px;
+    float: left;
+    width: calc(33.33% - 30px);
+    box-sizing: border-box;
+    margin: 15px;
+    position: relative;
+}
+  
+.wrapper img { width: 100%; }
+  
 /*End of Services CSS*/
 
 /*Start of Contact CSS*/
@@ -176,7 +214,7 @@ main .wrapper {
     background-size: cover;
     border-color:  rgb(59, 195, 230);
     border-width: 1px;
-    }
+  }
 
   /*Contact Box*/
 
