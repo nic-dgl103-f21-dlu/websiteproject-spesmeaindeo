@@ -33,7 +33,7 @@ body {
 
 .inner-container{
   text-align: center;
-  position:absolute;
+  position:fixed;
   width: 100%;
   color: white;
   height: auto;
@@ -201,17 +201,18 @@ main .wrapper {
     padding: 15px;
     border: 1px solid #aaaaaa;
     border-radius: 30px;
-    float: left;
     width: calc(33.33% - 30px);
     box-sizing: border-box;
     margin: 15px;
     position: relative;
+    box-shadow: 5px 5px rgb(153, 212, 223);
 }
   
 .wrapper img { width: 100%; }
   
 .wrapper img {
   width:100%;
+}
   
 /*End of Services CSS*/
 
