@@ -185,19 +185,62 @@ footer .wrapper {
     border-width: 1px;
 }
 
-main .wrapper {
-    grid-template-columns: 1/3;
+.flex-container{
     background-color: #f3f3f4;
     padding: 15px;
     border: 1px solid #aaaaaa;
     border-radius: 30px;
-    float: left;
-    width: calc(33.33% - 30px);
     box-sizing: border-box;
     margin: 15px;
-    position: relative;
     box-shadow: 5px 5px rgb(153, 212, 223);
 }
+
+/*Flex containers grow, align and flex on services page*/
+.grow .item1 {
+  flex-grow: 1;
+}
+
+.grow .item2 {
+  flex-grow: 2;
+}
+
+.grow .item3 {
+  flex-grow: 1;
+}
+
+/* align-self */
+.align {
+  align-items: flex-end;
+}
+
+.align .item1 {
+  height: 400px;
+}
+
+.align .item2 {
+  height: 400px;
+}
+
+.align .item3 {
+  align-self: flex-start;
+  flex-grow: 2;
+}
+
+/* flex */
+.flex .item1 {
+  flex: 1 1 0;
+}
+
+.flex .item2 {
+  flex: 2; /* shorthand for flex: 2 1 0; */
+}
+
+.flex .item3 {
+  flex: 1 1 0;
+}
+
+/*End of container flex items*/
+
   
 #services .wrapper {/*Used for image sizing and orientation on services page*/
     background-color: #f3f3f4;
