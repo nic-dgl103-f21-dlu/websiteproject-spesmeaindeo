@@ -15,7 +15,7 @@ body {
 }
 
 .img-container { 
-  background-image: url("\\theseus\Jenn's 2TB\AAA North Island College\DGL 103-HTML & CSS\Web Page Project-Peak Power Electric\websiteproject-spesmeaindeo\Images\lightbulb with dock and seagull.jpg");
+  background-image: url(../Images/"lightbulb with dock and seagull.jpg");
   background-repeat: none;
   background-position: center;
   background-color: #1f72aaa1;
@@ -187,8 +187,8 @@ main .wrapper {
     padding: 15px;
     border: 1px solid #aaaaaa;
     border-radius: 30px;
-    float: left;
-    width: calc(33.33% - 30px);
+    float: center;
+    width:auto;
     box-sizing: border-box;
     margin: 15px;
     position: relative;
@@ -200,8 +200,8 @@ main .wrapper {
     padding: 15px;
     border: 1px solid #aaaaaa;
     border-radius: 30px;
-    float: left;
-    width: calc(33.33% - 30px);
+    float: center;
+    width: auto;
     box-sizing: border-box;
     margin: 15px;
     position: relative;
