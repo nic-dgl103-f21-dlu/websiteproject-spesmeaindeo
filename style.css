@@ -88,7 +88,7 @@ section {
   margin: 15px;
   }/*Trying to align logo to the left*/
 
-.img-container { 
+#header .img{ 
   background-image: url('/Images/ with dock and seagull.jpg');
   background-size: cover;
   background-repeat: none;
@@ -96,7 +96,7 @@ section {
   background-color: #1f72aaa1;
   position: center;
   font-family: 'Nunito', sans-serif;
-  grid-column:1/3;
+  grid-column:1/5;
   padding: 10px;
   text-decoration: none;
   width: 800px;
