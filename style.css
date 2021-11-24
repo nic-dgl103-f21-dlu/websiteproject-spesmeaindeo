@@ -15,7 +15,8 @@ body {
 }
 
 .img-container { 
-  background-image: url(../Images/lightbulb with dock and seagull.jpg);
+  background-image: url('/Images/ with dock and seagull.jpg');
+  background-size: cover;
   background-repeat: none;
   background-position: center;
   background-color: #1f72aaa1;
@@ -25,6 +26,7 @@ body {
   padding: 10px;
   text-decoration: none;
   width: 800px;
+  height:100vh;
   margin: 0;
   color:black;
 } 
