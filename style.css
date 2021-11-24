@@ -41,14 +41,14 @@ body {
 /* partial span in grid of viewport with line 1 to 5 for Full span. Kept consistent across all pages*/
 
 h1 {
-  font-size: 7em;
+  font-size: 24pt;
   font-family: 'Nunito', sans-serif;
 }
 
 h2 {
   margin-top: -17px;
   font-family: 'Nunito', serif; 
-  font-size: 2em;
+  font-size: 18pt;
   text-align: center;
   font-weight:300;
 }
