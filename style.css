@@ -15,7 +15,7 @@ body {
 }
 
 .img-container { 
-  background-image: url(../Images/"lightbulb with dock and seagull.jpg");
+  background-image: url("\\theseus\Jenn's 2TB\AAA North Island College\DGL 103-HTML & CSS\Web Page Project-Peak Power Electric\websiteproject-spesmeaindeo\Images\lightbulb with dock and seagull.jpg");
   background-repeat: none;
   background-position: center;
   background-color: #1f72aaa1;
@@ -135,7 +135,7 @@ footer .wrapper {
 /*Start of Index CSS*/
 
 #index {
-    background-image: url(../Images/lightbulb-2593165_1920.jpg); /*image from unsplash*/
+    background-image: url("\\theseus\Jenn's 2TB\AAA North Island College\DGL 103-HTML & CSS\Web Page Project-Peak Power Electric\websiteproject-spesmeaindeo\Images\lightbulb with dock and seagull.jpg); /*image from unsplash");
     background-attachment:fixed;
     background-position: center;
     background-repeat:no-repeat;
@@ -148,7 +148,7 @@ footer .wrapper {
 /*Start of About CSS*/
 
 #about {
-    background-image: url(../Images/elecimages/david-von-diemar-aeaakiJziLs-unsplash.jpg); /*image from unsplash*/
+    background-image: url("\\theseus\Jenn's 2TB\AAA North Island College\DGL 103-HTML & CSS\Web Page Project-Peak Power Electric\websiteproject-spesmeaindeo\Images\david-von-diemar-aeaakiJziLs-unsplash.jpg"); /*image from unsplash*/
     background-attachment:fixed;
     background-position: center;
     background-repeat:no-repeat;
@@ -161,7 +161,7 @@ footer .wrapper {
 /*Start of Contact CSS*/
 
 #contact {
-    background-image: url(../Images/person-3062271.jpg); 
+    background-image: url("\\theseus\Jenn's 2TB\AAA North Island College\DGL 103-HTML & CSS\Web Page Project-Peak Power Electric\websiteproject-spesmeaindeo\Images\person-3062271.jpg"); 
     background-attachment:fixed;
     background-position: center;
     background-repeat:no-repeat;
@@ -187,8 +187,8 @@ main .wrapper {
     padding: 15px;
     border: 1px solid #aaaaaa;
     border-radius: 30px;
-    float: center;
-    width:auto;
+    float: left;
+    width: calc(33.33% - 30px);
     box-sizing: border-box;
     margin: 15px;
     position: relative;
@@ -200,8 +200,8 @@ main .wrapper {
     padding: 15px;
     border: 1px solid #aaaaaa;
     border-radius: 30px;
-    float: center;
-    width: auto;
+    float: left;
+    width: calc(33.33% - 30px);
     box-sizing: border-box;
     margin: 15px;
     position: relative;
@@ -211,7 +211,6 @@ main .wrapper {
   
 .wrapper img {
   width:100%;
-}
   
 /*End of Services CSS*/
 
