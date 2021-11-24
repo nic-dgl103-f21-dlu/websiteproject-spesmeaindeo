@@ -15,7 +15,7 @@ body {
 }
 
 .img-container { 
-  background-image: url(../Images/"lightbulb with dock and seagull.jpg");
+  background-image: url("\\theseus\Jenn's 2TB\AAA North Island College\DGL 103-HTML & CSS\Web Page Project-Peak Power Electric\websiteproject-spesmeaindeo\Images\lightbulb with dock and seagull.jpg");
   background-repeat: none;
   background-position: center;
   background-color: #1f72aaa1;
