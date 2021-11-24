@@ -161,9 +161,8 @@ main .wrapper {
     box-shadow: 5px 5px rgb(153, 212, 223);
   }
   
-.wrapper img {
+.services-wrapper {
   width:100%;
-  
   }
 /*End of Services CSS*/
 
