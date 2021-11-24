@@ -31,7 +31,7 @@ body {
 } 
 
 .inner-container{
-  text text-align: center;
+  text-align: center;
   position:absolute;
   width: 100%;
   color: white;
@@ -41,14 +41,14 @@ body {
 /* partial span in grid of viewport with line 1 to 5 for Full span. Kept consistent across all pages*/
 
 h1 {
-  font font-size: 7em;
+  font-size: 7em;
   font-family: 'Nunito', sans-serif;
 }
 
 h2 {
   margin-top: -17px;
   font-family: 'Nunito', serif; 
-  font font-size: 2em;
+  font-size: 2em;
   text-align: center;
   font-weight:300;
 }
@@ -57,7 +57,6 @@ h2 {
   width: auto;
   height: 60px;
 	display: inline-block;
-  float: left;
   margin: 15px;
   }/*Trying to align logo to the left*/
 
@@ -136,7 +135,7 @@ footer .wrapper {
 /*Start of Index CSS*/
 
 #index {
-    background-image: url(\Images\lightbulb-2593165_1920.jpg); /*image from unsplash*/
+    background-image: url(/Images/lightbulb-2593165_1920.jpg); /*image from unsplash*/
     background-attachment:fixed;
     background-position: center;
     background-repeat:no-repeat;
@@ -149,7 +148,7 @@ footer .wrapper {
 /*Start of About CSS*/
 
 #about {
-    background-image: url(\Images\elecimages\david-von-diemar-aeaakiJziLs-unsplash.jpg); /*image from unsplash*/
+    background-image: url(/Images/elecimages/david-von-diemar-aeaakiJziLs-unsplash.jpg); /*image from unsplash*/
     background-attachment:fixed;
     background-position: center;
     background-repeat:no-repeat;
@@ -159,7 +158,19 @@ footer .wrapper {
 }
 
 /*End of About CSS*/
+/*Start of Contact CSS*/
 
+#contact {
+    background-image: url(/Images/person-3062271.jpg); 
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    border-color:  rgb(59, 195, 230);
+    border-width: 1px;
+  }/*image from pexels*/
+
+  /*Contact Box*/
 /*Start of Services CSS*/
 
 #services {
@@ -184,7 +195,6 @@ main .wrapper {
     box-shadow: 5px 5px rgb(153, 212, 223);
 }
   
-<<<<<<< HEAD
 #services .wrapper {/*Used for image sizing and orientation on services page*/
     background-color: #f3f3f4;
     padding: 15px;
@@ -198,28 +208,13 @@ main .wrapper {
 }
   
 .wrapper img { width: 100%; }
-=======
-}
   
 .wrapper img {
   width:100%;
->>>>>>> parent of 595a9e0 (missed deletion of })
   
 /*End of Services CSS*/
 
-/*Start of Contact CSS*/
 
-#contact {
-    background-image: url(\Images\person-3062271.jpg); /*image from pexels*/
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size: cover;
-    border-color:  rgb(59, 195, 230);
-    border-width: 1px;
-  }
-
-  /*Contact Box*/
 
   /* STYLES ----------------------------------
 1. Global settings (resets such as border-box)
