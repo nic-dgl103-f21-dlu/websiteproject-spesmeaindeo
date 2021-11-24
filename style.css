@@ -188,6 +188,7 @@ main .wrapper {
     box-shadow: 5px 5px rgb(153, 212, 223);
 }
   
+<<<<<<< HEAD
 #services .wrapper {/*Used for image sizing and orientation on services page*/
     background-color: #f3f3f4;
     padding: 15px;
@@ -201,6 +202,12 @@ main .wrapper {
 }
   
 .wrapper img { width: 100%; }
+=======
+}
+  
+.wrapper img {
+  width:100%;
+>>>>>>> parent of 595a9e0 (missed deletion of })
   
 /*End of Services CSS*/
 
