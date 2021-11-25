@@ -76,7 +76,6 @@ section {
 
 header { 
   grid-column: 1/5;
-  
   background-color: #1f72aaa1;
   position: center;
   font-family: 'Nunito', sans-serif;
@@ -84,7 +83,7 @@ header {
   padding: 10px;
   text-decoration: none;
   width: 800px;
-  height:100vh;
+  height:200px;
   margin: auto;
   color:black;
   justify-content: left;
@@ -191,30 +190,28 @@ footer .wrapper {
     display: flex;
     flex-direction: row;
 }
-  
-#services .flex-item {/*Used for image sizing and orientation on services page*/
-    background-color: #f3f3f4;
-    padding: 15px;
-    border: 1px solid #aaaaaa;
-    border-radius: 30px;
-    width: calc(33.33% - 30px);
-    box-sizing: border-box;
-    margin: 15px;
-    position: absolute;
-    box-shadow: 5px 5px rgb(153, 212, 223);
-}
 
 .wrapper img { width: 100%; }
 
 .inner-container{
   text-align: center;
-  position:absolute;
   width: 100%;
   color: white;
   height: auto;
   margin-top: 200px;
 }
 
+#services .flex-item{/*Used for image sizing and orientation on services page*/
+    background-color: #f3f3f4;
+    padding: 15px;
+    border: 1px solid #aaaaaa;
+    border-radius: 30px;
+    width: 1/5;
+    box-sizing: border-box;
+    margin: 15px;
+    position: absolute;
+    box-shadow: 5px 5px rgb(153, 212, 223);
+}
 /*End of Services CSS*/
 
 /* STYLES ----------------------------------
