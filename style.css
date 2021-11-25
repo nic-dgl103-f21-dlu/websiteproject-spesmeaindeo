@@ -181,31 +181,21 @@ footer .wrapper {
   }
 }
 
-.card img {
- max-width:100%;
-  max-height: 100%;
+.card {    
+  background-color: #f3f3f4;
+  box-shadow: 5px 5px rgb(153, 212, 223);
+  border: 1px solid #aaaaaa;
+  transition: 0.3s;
+  width: 30%;
 }
 
-.card {
-    background-color: #f3f3f4;
-    padding: 15px;
-    border: 1px solid #aaaaaa;
-    border-radius: 30px;
-    margin: 15px;
-    box-shadow: 5px 5px rgb(153, 212, 223);
-    display: flex;
-}
+.container {
+  padding: 2px 16px;
+} 
 
-.card-deck {/*Used for image sizing and orientation on services page*/
-    background-color: #f3f3f4;
-    padding: 15px;
-    border: 1px solid #aaaaaa;
-    border-radius: 30px;
-    margin: 15px;
-    position: absolute;
-    box-shadow: 5px 5px rgb(153, 212, 223);
-    display:flex;
-}
+/*Used for image sizing and orientation on services page*/
+
+
 /*End of Services CSS*/
 
 /* STYLES ----------------------------------
