@@ -113,7 +113,7 @@ footer .wrapper {
 
 /*Start of Index CSS*/
 
-#index {
+#index body{
     background-image: url(/Images/lightbulb\ with\ dock\ and\ seagull.jpg);
     background-size: cover;
     background-repeat: none;
@@ -129,7 +129,7 @@ footer .wrapper {
 
 /*Start of About CSS*/
 
-#about {
+#about body{
     background-image: url(/Images/elecimages/david-von-diemar-aeaakiJziLs-unsplash.jpg); /*image from unsplash*/
     background-size: cover;
     background-repeat: none;
@@ -145,7 +145,7 @@ footer .wrapper {
 /*End of About CSS*/
 /*Start of Contact CSS*/
 
-#contact {
+#contact body{
     background-image: url(/Images/person-3062271.jpg); /*image from pexels*/
     background-size: cover;
     background-repeat: none;
@@ -162,7 +162,7 @@ footer .wrapper {
 
 /*Start of Services CSS*/
 
-#services {    
+#services body{    
     background-image: url(/Images/lightbulb-2593165_1920.jpg); /*image from unsplash*/
     background-size: cover;
     background-repeat: none;
