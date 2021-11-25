@@ -25,6 +25,13 @@ h2 {
   font-weight:300;
 }
 
+h5{
+  font-family: 'Nunito', sans-serif; /*main font used*/
+  font-size: 16pt;
+  color: black;
+  font-weight: bolder;
+}
+
 p {
   font-family:'Merriweather', serif;/*second font for body that is similar to what is already used to keep consistency*/
 }
@@ -181,17 +188,15 @@ footer .wrapper {
   }
 }
 
-.card {    
+.card-group {    
   background-color: #f3f3f4;
   box-shadow: 5px 5px rgb(153, 212, 223);
   border: 1px solid #aaaaaa;
   transition: 0.3s;
   width: 30%;
+  display:flex;
+  text-align: center;
 }
-
-.container {
-  padding: 2px 16px;
-} 
 
 /*Used for image sizing and orientation on services page*/
 
