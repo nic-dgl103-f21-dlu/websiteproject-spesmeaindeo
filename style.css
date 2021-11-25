@@ -111,7 +111,7 @@ footer .wrapper {
 
 #index body{
   background-color:  rgb(191, 234, 245);
-    background-image: url(/Images/lightbulb\ with\ dock\ and\ seagull.jpg);
+    background-image: url(/images/beachbulb.jpg);
     background-size: cover;
     background-repeat: none;
     background-position: center;
@@ -127,7 +127,7 @@ footer .wrapper {
 
 #about body{
     background-color:  rgb(191, 234, 245);
-    background-image: url(/Images/elecimages/david-von-diemar-aeaakiJziLs-unsplash.jpg); /*image from unsplash*/
+    background-image: url(/images/curlwiresonblue.jpg); /*image from unsplash*/
     background-size: cover;
     background-repeat: none;
     background-position: center;
@@ -143,7 +143,7 @@ footer .wrapper {
 
 #contact body{
     background-color:  rgb(191, 234, 245);
-    background-image: url(/Images/person-3062271.jpg); /*image from pexels*/
+    background-image: url(/images/forestmanbulb.jpg); /*image from pexels*/
     background-size: cover;
     background-repeat: none;
     background-position: center;
