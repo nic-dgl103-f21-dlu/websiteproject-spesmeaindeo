@@ -70,10 +70,6 @@ nav {
   }
 /* end navigation */
 
-section {
-  padding: 10px 0;
-}
-
 header { 
   grid-column: 1/5;
   background-color: #5fb4ecd5;
@@ -89,7 +85,7 @@ header {
   justify-content: left;
 }
 
-
+.wrapper img { width: 100%; }
 
 /*Beginning of Footer*/
 
@@ -114,6 +110,7 @@ footer .wrapper {
 /*Start of Index CSS*/
 
 #index body{
+  background-color:  rgb(191, 234, 245);
     background-image: url(/Images/lightbulb\ with\ dock\ and\ seagull.jpg);
     background-size: cover;
     background-repeat: none;
@@ -122,7 +119,6 @@ footer .wrapper {
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
-    background-color:  rgb(191, 234, 245);
     border-width: 1px;
 }
 /*End of Index CSS*/
@@ -130,6 +126,7 @@ footer .wrapper {
 /*Start of About CSS*/
 
 #about body{
+    background-color:  rgb(191, 234, 245);
     background-image: url(/Images/elecimages/david-von-diemar-aeaakiJziLs-unsplash.jpg); /*image from unsplash*/
     background-size: cover;
     background-repeat: none;
@@ -138,7 +135,6 @@ footer .wrapper {
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
-    background-color:  rgb(191, 234, 245);
     border-width: 1px;
 }
 
@@ -146,6 +142,7 @@ footer .wrapper {
 /*Start of Contact CSS*/
 
 #contact body{
+    background-color:  rgb(191, 234, 245);
     background-image: url(/Images/person-3062271.jpg); /*image from pexels*/
     background-size: cover;
     background-repeat: none;
@@ -154,7 +151,6 @@ footer .wrapper {
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
-    background-color:  rgb(191, 234, 245);
     border-width: 1px;
   }
 
@@ -162,7 +158,8 @@ footer .wrapper {
 
 /*Start of Services CSS*/
 
-#services body{    
+#services body{
+    background-color:  rgb(191, 234, 245);    
     background-image: url(/Images/lightbulb-2593165_1920.jpg); /*image from unsplash*/
     background-size: cover;
     background-repeat: none;
@@ -171,13 +168,21 @@ footer .wrapper {
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
-    background-color:  rgb(191, 234, 245);
     border-width: 1px;
 }
 
-/*Flex container in "services" page*/
+/*card deck group in "services" page*/
 
-.flex-container{
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+.card-deck {
     background-color: #f3f3f4;
     padding: 15px;
     border: 1px solid #aaaaaa;
@@ -191,17 +196,7 @@ footer .wrapper {
     flex-direction: row;
 }
 
-.wrapper img { width: 100%; }
-
-.inner-container{
-  text-align: center;
-  width: 100%;
-  color: white;
-  height: auto;
-  margin-top: 200px;
-}
-
-#services .flex-item{/*Used for image sizing and orientation on services page*/
+.card {/*Used for image sizing and orientation on services page*/
     background-color: #f3f3f4;
     padding: 15px;
     border: 1px solid #aaaaaa;
@@ -211,6 +206,7 @@ footer .wrapper {
     margin: 15px;
     position: absolute;
     box-shadow: 5px 5px rgb(153, 212, 223);
+    display:flex;
 }
 /*End of Services CSS*/
 
