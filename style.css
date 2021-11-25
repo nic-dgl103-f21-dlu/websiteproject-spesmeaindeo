@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-  margin-top: -17px;
+  margin-top: -10px;
   font-family: 'Nunito', serif; 
   font-size: 18pt;
   text-align: center;
@@ -74,46 +74,23 @@ section {
   padding: 200px 0;
 }
 
-/*Flex container in "services" page*/
-
-  .flex-container {
-      display: flex;
-      flex-direction: row;
-  }
-
-.img {
-  width: 200px;
-  margin: auto;
-	display: inline-block;
-  margin: 15px;
-  }/*Trying to align logo to the left*/
-
-/*#header .img{ 
-  background-image: url('/Images/ with dock and seagull.jpg');
-  background-size: cover;
-  background-repeat: none;
-  background-position: center;
+header { 
+  grid-column: 1/5;
+  
   background-color: #1f72aaa1;
   position: center;
   font-family: 'Nunito', sans-serif;
-  grid-column:1/5;
+  display: inline-block;
   padding: 10px;
   text-decoration: none;
   width: 800px;
   height:100vh;
-  margin: 0;
+  margin: auto;
   color:black;
-} */
-
-.inner-container{
-  text-align: center;
-  position:fixed;
-  width: 100%;
-  color: white;
-  height: auto;
-  margin-top: 200px;
+  justify-content: left;
 }
-/* partial span in grid of viewport with line 1 to 5 for Full span. Kept consistent across all pages*/
+
+
 
 /*Beginning of Footer*/
 
@@ -138,12 +115,15 @@ footer .wrapper {
 /*Start of Index CSS*/
 
 #index {
-    background-image: url(/Images/lightbulb-2593165_1920.jpg); /*image from unsplash*/
+    background-image: url(/Images/lightbulb\ with\ dock\ and\ seagull.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
     background-attachment:fixed;
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
-    border-color:  rgb(59, 195, 230);
+    background-color:  rgb(59, 195, 230);
     border-width: 1px;
 }
 /*End of Index CSS*/
@@ -152,11 +132,14 @@ footer .wrapper {
 
 #about {
     background-image: url(/Images/elecimages/david-von-diemar-aeaakiJziLs-unsplash.jpg); /*image from unsplash*/
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
     background-attachment:fixed;
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
-    border-color:  rgb(59, 195, 230);
+    background-color:  rgb(59, 195, 230);
     border-width: 1px;
 }
 
@@ -164,27 +147,36 @@ footer .wrapper {
 /*Start of Contact CSS*/
 
 #contact {
-    background-image: url(/Images/person-3062271.jpg); 
+    background-image: url(/Images/person-3062271.jpg); /*image from pexels*/
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
     background-attachment:fixed;
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
-    border-color:  rgb(59, 195, 230);
+    background-color:  rgb(59, 195, 230);
     border-width: 1px;
-  }/*image from pexels*/
+  }
 
   /*Contact Box*/
 
 /*Start of Services CSS*/
 
-#services {
+#services {    
+    background-image: url(/Images/lightbulb-2593165_1920.jpg); /*image from unsplash*/
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
     background-attachment:fixed;
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
-    border-color:  rgb(59, 195, 230);
+    background-color:  rgb(59, 195, 230);
     border-width: 1px;
 }
+
+/*Flex container in "services" page*/
 
 .flex-container{
     background-color: #f3f3f4;
@@ -195,7 +187,9 @@ footer .wrapper {
     margin: 15px;
     box-shadow: 5px 5px rgb(153, 212, 223);
     flex-grow: 2;
-    align-items:stretch
+    align-items:stretch;
+    display: flex;
+    flex-direction: row;
 }
   
 #services .flex-item {/*Used for image sizing and orientation on services page*/
@@ -206,21 +200,24 @@ footer .wrapper {
     width: calc(33.33% - 30px);
     box-sizing: border-box;
     margin: 15px;
-    position: relative;
+    position: absolute;
     box-shadow: 5px 5px rgb(153, 212, 223);
 }
 
 .wrapper img { width: 100%; }
-  
-.wrapper img {
-  width:100%;
+
+.inner-container{
+  text-align: center;
+  position:absolute;
+  width: 100%;
+  color: white;
+  height: auto;
+  margin-top: 200px;
 }
-  
+
 /*End of Services CSS*/
 
-
-
-  /* STYLES ----------------------------------
+/* STYLES ----------------------------------
 1. Global settings (resets such as border-box)
 2. Typography (headings, paragraphs, lists, buttons)
 3. Layout structure (body, header, footer, sidebar)
