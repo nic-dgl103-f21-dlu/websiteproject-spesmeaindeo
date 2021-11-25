@@ -71,7 +71,7 @@ nav {
 /* end navigation */
 
 section {
-  padding: 200px 0;
+  padding: 10px 0;
 }
 
 header { 
@@ -83,7 +83,7 @@ header {
   padding: 10px;
   text-decoration: none;
   width: 800px;
-  height:200px;
+  height:300px;
   margin: auto;
   color:black;
   justify-content: left;
