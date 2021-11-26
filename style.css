@@ -27,8 +27,8 @@ h2 {
 
 h5{
   font-family: 'Nunito', sans-serif; /*main font used*/
-  font-size: 14pt;
-    color: black;
+  font-size: 18pt;
+  color: #1f72aaa1;
   font-weight: bolder;
 }
 
@@ -191,12 +191,17 @@ footer .wrapper {
 }
 
 .card-group {    
-  background-color: #f3f3f4;
-  box-shadow: 5px 5px rgb(153, 212, 223);
-  border: 1px solid #aaaaaa;
+  background-color:#5fb4ecd5;
+  box-shadow: 10px 10px #176396d5;
+  border: 1px solid #5fb4ecd5;
   width: 100%;
   display:flex;
   text-align: center;
+}
+
+.card-text{
+  font-family: 'Nunito', sans-serif, italic; 
+  color:rgba(0, 0, 0, 0.473);
 }
 
 /*Used for image sizing and orientation on services page*/
