@@ -184,9 +184,10 @@ footer .wrapper {
 
 .card-deck {
   column-count:3;
-  justify-content: center;
-  width: 25%;
-  height:25%;
+  width: 100%;
+  height:100%;
+  padding:10px;
+  justify-content: fixed center space-between;
 }
 
 .card-columns {
@@ -200,9 +201,7 @@ footer .wrapper {
 
 .card-body {    
   background-color:#5fb4ecd5;
-  box-shadow: 10px 10px #176396d5;
-  border: 5px solid #5fb4ecd5;
-  justify-content: center space-between;
+  box-shadow: 5px 5px #176396d5; 
 }
 
 .card-text{
