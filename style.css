@@ -184,8 +184,8 @@ footer .wrapper {
 
 .card-deck {
   column-count: 3;
-  width: 80%;
-  height:80%;
+  width: 30%;
+  height:30%;
   margin:auto;
   display:flex;
 }
@@ -203,7 +203,7 @@ footer .wrapper {
   background-color:#5fb4ecd5;
   box-shadow: 10px 10px #176396d5;
   border: 1px solid #5fb4ecd5;
- 
+  justify-content: space-between;
 }
 
 .card-text{
