@@ -184,12 +184,9 @@ footer .wrapper {
 
 .card-deck {
   column-count:3;
-  width: 100%;
-  height:100%;
   padding:10px;
   flex-direction: row;
-  margin: 0 10px;
-  flex: 1;
+  flex-wrap: nowrap;
 }
 
 .card-columns {
@@ -197,14 +194,13 @@ footer .wrapper {
     column-count: 3;
   }
   @include media-breakpoint-only(xl) {
-    column-count: 5;
+    column-count: 3;
   }
 }
 
-.card-body {    
+.card-body {  
   background-color:#5fb4ecd5;
   box-shadow: 5px 5px #176396d5; 
-  flex-wrap: nowrap;
 }
 
 .card-text{
