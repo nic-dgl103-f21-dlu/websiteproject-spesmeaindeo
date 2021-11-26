@@ -6,10 +6,14 @@ body {
   font-family: 'Nunito', sans-serif; /*main font used*/
   font-size: 16pt;
   text-align: center;
-  margin: auto;
   width:800px;
   color: black;
   font-weight: bolder;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
 }
 
 h1 {
@@ -27,13 +31,14 @@ h2 {
 
 h5{
   font-family: 'Nunito', sans-serif; /*main font used*/
-  font-size: 16pt;
-  color: black;
+  font-size: 14pt;
+    color: black;
   font-weight: bolder;
 }
 
 p {
-  font-family:'Merriweather', serif;/*second font for body that is similar to what is already used to keep consistency*/
+  font-family:'Merriweather', sans-serif;
+/*second font for body that is similar to what is already used to keep consistency*/
 }
 
 /* start navigation  Kept consistent across all pages*/
@@ -92,34 +97,7 @@ header {
   justify-content: left;
 }
 
-body, html {
-  height: 100%;
-}
-
-/* The hero image */
-.hero-image {
-/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/bannerlogo.jpg);
-
-/* Set a specific height */
-height: 100%;
-
-/* Position and center the image to scale nicely on all screens */
-background-position: bottom;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-}
-
-/* Place text in the middle of the image */
-.hero-text {
-text-align: bottom;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-color: white;
-}
+.wrapper img { width: 100%; }
 
 /*Beginning of Footer*/
 
@@ -175,18 +153,15 @@ footer .wrapper {
 /*End of About CSS*/
 /*Start of Contact CSS*/
 
-#contact body{
-    background-color:  rgb(191, 234, 245);
-    background-image: url(/images/forestmanbulb.jpg); /*image from pexels*/
-    background-size: cover;
-    background-repeat: none;
-    background-position: center;
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size: cover;
-    border-width: 1px;
-  }
+#contact .bg{/* Full height */
+      background-image: url(/images/forestmanbulb.jpg); /*image from pexels*/
+      background-color:  rgb(191, 234, 245);
+      height: 100%; 
+      /* Center and scale the image*/
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
 
   /*Contact Box*/
 
