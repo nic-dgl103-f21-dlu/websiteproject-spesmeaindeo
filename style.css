@@ -6,14 +6,10 @@ body {
   font-family: 'Nunito', sans-serif; /*main font used*/
   font-size: 16pt;
   text-align: center;
+  margin: auto;
   width:800px;
   color: black;
   font-weight: bolder;
-}
-
-body, html {
-  height: 100%;
-  margin: 0;
 }
 
 h1 {
@@ -37,8 +33,7 @@ h5{
 }
 
 p {
-  font-family:'Merriweather', sans-serif;
-/*second font for body that is similar to what is already used to keep consistency*/
+  font-family:'Merriweather', sans-serif;/*second font for body that is similar to what is already used to keep consistency*/
 }
 
 /* start navigation  Kept consistent across all pages*/
@@ -119,6 +114,8 @@ footer .wrapper {
 
 /*End of Consitency across all pages*/
 
+/*=============BACKGROUND IMAGES DO NOT WORK BUT KEPT THEM IN FOR REFERENCE==================*/
+/*=============WILL BE COMING BACK TO THIS LATER BUT WASN'T A REQUIRMENT, JUST A "WANT"======*/
 /*Start of Index CSS*/
 
 #index body{
@@ -153,15 +150,18 @@ footer .wrapper {
 /*End of About CSS*/
 /*Start of Contact CSS*/
 
-#contact .bg{/* Full height */
-      background-image: url(/images/forestmanbulb.jpg); /*image from pexels*/
-      background-color:  rgb(191, 234, 245);
-      height: 100%; 
-      /* Center and scale the image*/
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-}
+#contact body{
+    background-color:  rgb(191, 234, 245);
+    background-image: url(/images/forestmanbulb.jpg); /*image from pexels*/
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    border-width: 1px;
+  }
 
   /*Contact Box*/
 
