@@ -194,8 +194,7 @@ footer .wrapper {
   background-color: #f3f3f4;
   box-shadow: 5px 5px rgb(153, 212, 223);
   border: 1px solid #aaaaaa;
-  transition: 0.3s;
-  width: 30%;
+  width: 80%;
   display:flex;
   text-align: center;
 }
