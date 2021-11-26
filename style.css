@@ -78,7 +78,7 @@ nav {
   }
 /* end navigation */
 
-header { 
+header .img{ 
   grid-column: 1/5;
   background-color: #5fb4ecd5;
   position: fixed;
