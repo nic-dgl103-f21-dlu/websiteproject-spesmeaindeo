@@ -187,7 +187,7 @@ footer .wrapper {
   width: 80%;
   height:80%;
   margin:auto;
- 
+  display:flex;
 }
 
 .card-columns {
@@ -199,19 +199,17 @@ footer .wrapper {
   }
 }
 
-.card-group {    
+.card-body {    
   background-color:#5fb4ecd5;
   box-shadow: 10px 10px #176396d5;
   border: 1px solid #5fb4ecd5;
-  width: 800px;
-  height: 800px;
-  display:flex;
-  text-align: center;
+ 
 }
 
 .card-text{
   font-family: 'Nunito', sans-serif, italic; 
-  color:rgba(0, 0, 0, 0.473);
+  color:rgba(0, 0, 0, 0.473); 
+  text-align: center;
 }
 
 /*Used for image sizing and orientation on services page*/
