@@ -20,8 +20,6 @@ header {
   display: inline-block;
   padding: 10px;
   text-decoration: none;
-  width: 900px;
-  height:400px;
   margin: auto;
   color:black;
   justify-content: left;
@@ -97,8 +95,6 @@ nav {
   }
 /* end navigation */
 
-
-
 .wrapper img { width: 100%; }
 
 /*Beginning of Footer*/
@@ -128,7 +124,7 @@ footer .wrapper {
 /*Start of Index CSS*/
 
 #index main{
-  background-color:  rgb(191, 234, 245);
+  background-color:  white;
     background-image: url(/images/beachbulb.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -143,7 +139,7 @@ footer .wrapper {
 /*Start of About CSS*/
 
 #about main{
-    background-color:  rgb(191, 234, 245);
+    background-color: white;
     background-image: url(/images/curlwiresonblue.jpg); /*image from unsplash*/
     background-size: cover;
     background-repeat: no-repeat;
@@ -156,7 +152,7 @@ footer .wrapper {
 /*Start of Contact CSS*/
 
 #contact main{
-    background-color:  rgb(191, 234, 245);
+    background-color: white;
     background-image: url(/images/forestmanbulb.jpg); /*image from pexels*/
     background-size: cover;
     background-position: center;
@@ -170,7 +166,7 @@ footer .wrapper {
 /*Start of Services CSS*/
 
 #services main{
-    background-color:  rgb(191, 234, 245);    
+    background-color:white;    
     background-size: cover;
     background-position: center;
     background-attachment:fixed;
