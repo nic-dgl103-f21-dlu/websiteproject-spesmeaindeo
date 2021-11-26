@@ -123,8 +123,7 @@ footer .wrapper {
 /*=============WILL BE COMING BACK TO THIS LATER BUT WASN'T A REQUIRMENT, JUST A "WANT"======*/
 /*Start of Index CSS*/
 
-#index main{
-  background-color:  white;
+.index #main {
     background-image: url(/images/beachbulb.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -133,39 +132,41 @@ footer .wrapper {
     background-position: center;
     background-size: cover;
     border-width: 1px;
+    background-color:  white;
 }
 /*End of Index CSS*/
 
 /*Start of About CSS*/
 
-#about main{
-    background-color: white;
+#about .main{
     background-image: url(/images/curlwiresonblue.jpg); /*image from unsplash*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment:fixed;
-    border-width: 1px;
+    border-width: 1px;  
+    background-color: white;
 }
 
 /*End of About CSS*/
 /*Start of Contact CSS*/
 
-#contact main{
-    background-color: white;
+#contact .main {
+  
     background-image: url(/images/forestmanbulb.jpg); /*image from pexels*/
     background-size: cover;
     background-position: center;
     background-attachment:fixed;
     background-repeat:no-repeat;
-    border-width: 1px;
+    border-width: 1px;  
+    background-color: white;
   }
 
   /*Contact Box*/
 
 /*Start of Services CSS*/
 
-#services main{
+#services .main{
     background-color:white;    
     background-size: cover;
     background-position: center;
