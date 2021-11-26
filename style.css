@@ -124,7 +124,7 @@ footer .wrapper {
 /*Start of Index CSS*/
 
 .index #main {
-    background-image: url(/images/beachbulb.jpg);
+    background-image: url("beachbulb.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -138,8 +138,8 @@ footer .wrapper {
 
 /*Start of About CSS*/
 
-#about .main{
-    background-image: url(/images/curlwiresonblue.jpg); /*image from unsplash*/
+#about body {
+    background-image: url("curlwiresonblue.jpg"); /*image from unsplash*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -151,9 +151,9 @@ footer .wrapper {
 /*End of About CSS*/
 /*Start of Contact CSS*/
 
-#contact .main {
+#contact body {
   
-    background-image: url(/images/forestmanbulb.jpg); /*image from pexels*/
+    background-image: url("forestmanbulb.jpg"); /*image from pexels*/
     background-size: cover;
     background-position: center;
     background-attachment:fixed;
@@ -166,7 +166,7 @@ footer .wrapper {
 
 /*Start of Services CSS*/
 
-#services .main{
+#services body {
     background-color:white;    
     background-size: cover;
     background-position: center;
