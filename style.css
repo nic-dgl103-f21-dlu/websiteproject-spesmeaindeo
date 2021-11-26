@@ -182,6 +182,12 @@ footer .wrapper {
 
 /*card deck group in "services" page*/
 
+.card-deck {
+  width: 50%;
+  height:50%;
+  margin:auto;
+}
+
 .card-columns {
   @include media-breakpoint-only(lg) {
     column-count: 3;
