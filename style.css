@@ -183,11 +183,10 @@ footer .wrapper {
 /*card deck group in "services" page*/
 
 .card-deck {
-  column-count: 3;
-  width: 30%;
-  height:30%;
-  margin:auto;
-  display:flex;
+  column-count:3;
+  justify-content: center;
+  width: 25%;
+  height:25%;
 }
 
 .card-columns {
@@ -202,8 +201,8 @@ footer .wrapper {
 .card-body {    
   background-color:#5fb4ecd5;
   box-shadow: 10px 10px #176396d5;
-  border: 1px solid #5fb4ecd5;
-  justify-content: space-between;
+  border: 5px solid #5fb4ecd5;
+  justify-content: center space-between;
 }
 
 .card-text{
