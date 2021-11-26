@@ -183,9 +183,11 @@ footer .wrapper {
 /*card deck group in "services" page*/
 
 .card-deck {
+  column-count: 3;
   width: 30%;
   height:30%;
   margin:auto;
+ 
 }
 
 .card-columns {
