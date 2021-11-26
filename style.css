@@ -40,7 +40,7 @@ p {
 
 nav {
   grid-column:1/5;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Nunito', sans-serif, ;
   font-size: 16pt;
 	background-color: #1f72aaa1;
 	color: #00060a;
@@ -78,7 +78,7 @@ nav {
   }
 /* end navigation */
 
-header .img{ 
+header { 
   grid-column: 1/5;
   background-color: #5fb4ecd5;
   position: fixed;
@@ -86,8 +86,9 @@ header .img{
   display: inline-block;
   padding: 10px;
   text-decoration: none;
-  width: 800px;
-  margin: 0;
+  width: 900px;
+  height:400px;
+  margin: auto;
   color:black;
   justify-content: left;
 }
