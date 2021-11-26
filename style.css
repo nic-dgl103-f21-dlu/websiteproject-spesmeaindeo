@@ -55,7 +55,7 @@ nav {
   nav ul {
   display:flex;
   align-content: center;
-	justify-content:space-between;
+	justify-content:center;
   list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -195,7 +195,7 @@ footer .wrapper {
   background-color:#5fb4ecd5;
   box-shadow: 10px 10px #176396d5;
   border: 1px solid #5fb4ecd5;
-  width: 100%;
+  width: 30%;
   display:flex;
   text-align: center;
 }
