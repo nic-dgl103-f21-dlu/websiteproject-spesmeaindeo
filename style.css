@@ -40,7 +40,7 @@ p {
 
 nav {
   grid-column:1/5;
-	font-family: 'Nunito semi-bold 600', sans-serif, ;
+	font-family: 'Nunito', sans-serif;
   font-size: 16pt;
 	background-color: #1f72aaa1;
 	color: #00060a;
@@ -81,7 +81,7 @@ nav {
 header { 
   grid-column: 1/5;
   background-color: #5fb4ecd5;
-  position: center;
+  position: fixed;
   font-family: 'Nunito', sans-serif;
   display: inline-block;
   padding: 10px;
@@ -123,11 +123,10 @@ footer .wrapper {
   background-color:  rgb(191, 234, 245);
     background-image: url(/images/beachbulb.jpg);
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-position: center;
     background-attachment:fixed;
     background-position: center;
-    background-repeat:no-repeat;
     background-size: cover;
     border-width: 1px;
 }
@@ -139,12 +138,9 @@ footer .wrapper {
     background-color:  rgb(191, 234, 245);
     background-image: url(/images/curlwiresonblue.jpg); /*image from unsplash*/
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-position: center;
     background-attachment:fixed;
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size: cover;
     border-width: 1px;
 }
 
@@ -155,12 +151,9 @@ footer .wrapper {
     background-color:  rgb(191, 234, 245);
     background-image: url(/images/forestmanbulb.jpg); /*image from pexels*/
     background-size: cover;
-    background-repeat: none;
     background-position: center;
     background-attachment:fixed;
-    background-position: center;
     background-repeat:no-repeat;
-    background-size: cover;
     border-width: 1px;
   }
 
@@ -171,31 +164,20 @@ footer .wrapper {
 #services body{
     background-color:  rgb(191, 234, 245);    
     background-size: cover;
-    background-repeat: none;
     background-position: center;
     background-attachment:fixed;
-    background-position: center;
     background-repeat:no-repeat;
-    background-size: cover;
     border-width: 1px;
 }
 
 /*card deck group in "services" page*/
 
-.card-deck {
+.card-deck {align-content: flex-start;
+  align-content: space-evenly;
   column-count:3;
-  padding:10px;
+  padding:20px 20px;
   flex-direction: row;
   flex-wrap: nowrap;
-}
-
-.card-columns {
-  @include media-breakpoint-only(lg) {
-    column-count: 3;
-  }
-  @include media-breakpoint-only(xl) {
-    column-count: 3;
-  }
 }
 
 .card-body {  
@@ -230,7 +212,7 @@ footer .wrapper {
 input[type="reset"] {
   color: blue;
   padding: 12px 20px;
-  border: 1px solid blue;
+  border: 1px solid rgba(53, 53, 196, 0.589);
   border-radius: 4px;
   cursor: pointer;
 }
@@ -243,7 +225,7 @@ input[type="submit"] {
   background-color: blue;
   color: white;
   padding: 12px 20px;
-  border: 1px solid blue;
+  border: 1px solid rgba(53, 53, 196, 0.589);
   border-radius: 4px;
   cursor: pointer;
 }
