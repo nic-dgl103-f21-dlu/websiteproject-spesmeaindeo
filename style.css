@@ -12,6 +12,23 @@ body {
   font-weight: bolder;
 }
 
+header { 
+  grid-column: 1/5;
+  background-color: #5fb4ecd5;
+  position: static;
+  font-family: 'Nunito', sans-serif;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  width: 900px;
+  height:400px;
+  margin: auto;
+  color:black;
+  justify-content: left;
+}
+
+/*Start of in body elements and attributes. Many are in header hence why they are here instead of lower*/
+
 h1 {
   font-size: 24pt;
   font-family: 'Nunito', sans-serif;
@@ -35,6 +52,8 @@ h5{
 p {
   font-family:'Merriweather', sans-serif;/*second font for body that is similar to what is already used to keep consistency*/
 }
+
+/*End of in body elements and attributes*/
 
 /* start navigation  Kept consistent across all pages*/
 
@@ -78,20 +97,7 @@ nav {
   }
 /* end navigation */
 
-header { 
-  grid-column: 1/5;
-  background-color: #5fb4ecd5;
-  position: fixed;
-  font-family: 'Nunito', sans-serif;
-  display: inline-block;
-  padding: 10px;
-  text-decoration: none;
-  width: 900px;
-  height:400px;
-  margin: auto;
-  color:black;
-  justify-content: left;
-}
+
 
 .wrapper img { width: 100%; }
 
@@ -115,11 +121,13 @@ footer .wrapper {
 
 /*End of Consitency across all pages*/
 
+
+
 /*=============BACKGROUND IMAGES DO NOT WORK BUT KEPT THEM IN FOR REFERENCE==================*/
 /*=============WILL BE COMING BACK TO THIS LATER BUT WASN'T A REQUIRMENT, JUST A "WANT"======*/
 /*Start of Index CSS*/
 
-#index body{
+#index main{
   background-color:  rgb(191, 234, 245);
     background-image: url(/images/beachbulb.jpg);
     background-size: cover;
@@ -134,7 +142,7 @@ footer .wrapper {
 
 /*Start of About CSS*/
 
-#about body{
+#about main{
     background-color:  rgb(191, 234, 245);
     background-image: url(/images/curlwiresonblue.jpg); /*image from unsplash*/
     background-size: cover;
@@ -147,7 +155,7 @@ footer .wrapper {
 /*End of About CSS*/
 /*Start of Contact CSS*/
 
-#contact body{
+#contact main{
     background-color:  rgb(191, 234, 245);
     background-image: url(/images/forestmanbulb.jpg); /*image from pexels*/
     background-size: cover;
@@ -161,7 +169,7 @@ footer .wrapper {
 
 /*Start of Services CSS*/
 
-#services body{
+#services main{
     background-color:  rgb(191, 234, 245);    
     background-size: cover;
     background-position: center;
