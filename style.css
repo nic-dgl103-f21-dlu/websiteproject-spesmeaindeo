@@ -141,17 +141,17 @@ footer .wrapper {
 
 /*Start of About CSS*/
 
-.about-body {
-    background-image: url("../images/curlwiresonblue.jpg"); /*image from unsplash*/
-    background-size: cover;
+.about-box {
+    background-image: url("images/pexels-ekrulila-2332882.jpg"); /*image from unsplash*/
+    background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment:fixed;
-    border-width: 1px;
+    border-width: 2;
     background-color:  white;
-    opacity: .6;
-    text-align: center;
-    font-weight: 900;
+    opacity: .9;
+    text-align: left;
+    padding: 5px;
 }
 
 /*End of About CSS*/
