@@ -15,7 +15,6 @@ body {
 
 header { 
   grid-column: 1/5;
-  background-color: #5fb4ecd5;
   position: static;
   font-family: 'Nunito', sans-serif;
   display: inline-block;
@@ -41,7 +40,7 @@ h2 {
   font-weight:300;
 }
 
-h5{
+h3{
   font-family: 'Nunito', sans-serif; /*main font used*/
   font-size: 18pt;
   color: #1f72aaa1;
@@ -190,18 +189,30 @@ footer .wrapper {
 }
 
 /*card deck group in "services" page*/
+section{
+  justify-content: space-evenly;
+ align-content: stretch;
+}
 
-.card-deck {align-content: flex-start;
-  align-content: space-evenly;
+.card-deck {
   column-count:3;
-  padding:20px 20px;
+  padding:10px 10px;
   flex-direction: row;
   flex-wrap: nowrap;
+}
+
+.card{
+ justify-content: space-evenly;
+ align-content: stretch;
 }
 
 .card-body {  
   background-color:#5fb4ecd5;
   box-shadow: 5px 5px #176396d5; 
+}
+
+.card-img-top {
+justify-content: space-evenly;
 }
 
 .card-text{
