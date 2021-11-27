@@ -7,7 +7,8 @@ body {
   font-size: 16pt;
   text-align: center;
   margin: auto;
-  width:100%;
+  min-width: fit-content;
+  min-height: fit-content;
   color: black;
   font-weight: bolder;
 }
@@ -49,6 +50,7 @@ h5{
 
 p {
   font-family:'Merriweather', sans-serif;/*second font for body that is similar to what is already used to keep consistency*/
+font-size: 16pt;
 }
 
 /*End of in body elements and attributes*/
@@ -124,13 +126,15 @@ footer .wrapper {
 /*Start of Index CSS*/
 
 .box {
-    background-image: url("../imgages/beachbulb.jpg");
-    background-size: cover;
+    background-image: url("images/beachbulb.jpg")
+  ;/*this one works!*/
+    background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment:fixed;
     border-width: 1px;
     background-color:  white;
+    opacity: .8;
 }
 /*End of Index CSS*/
 
