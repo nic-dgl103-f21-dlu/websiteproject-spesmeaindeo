@@ -124,7 +124,7 @@ footer .wrapper {
 /*Start of Index CSS*/
 
 .box {
-    background-image: url("beachbulb.jpg");
+    background-image: url("../imgages/beachbulb.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
