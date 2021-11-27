@@ -137,7 +137,7 @@ footer .wrapper {
 /*Start of About CSS*/
 
 #about body {
-    background-image: url("curlwiresonblue.jpg"); /*image from unsplash*/
+    background-image: url("../images/curlwiresonblue.jpg"); /*image from unsplash*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -151,7 +151,7 @@ footer .wrapper {
 
 #contact body {
   
-    background-image: url("forestmanbulb.jpg"); /*image from pexels*/
+    background-image: url("../images/forestmanbulb.jpg"); /*image from pexels*/
     background-size: cover;
     background-position: center;
     background-attachment:fixed;
