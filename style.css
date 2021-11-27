@@ -50,7 +50,8 @@ h5{
 
 p {
   font-family:'Merriweather', sans-serif;/*second font for body that is similar to what is already used to keep consistency*/
-font-size: 16pt;
+font-size: 20pt;    
+font-weight: 900;
 }
 
 /*End of in body elements and attributes*/
@@ -119,41 +120,45 @@ footer .wrapper {
 
 /*End of Consitency across all pages*/
 
-
-
-/*=============BACKGROUND IMAGES DO NOT WORK BUT KEPT THEM IN FOR REFERENCE==================*/
-/*=============WILL BE COMING BACK TO THIS LATER BUT WASN'T A REQUIRMENT, JUST A "WANT"======*/
 /*Start of Index CSS*/
 
-.box {
-    background-image: url("images/beachbulb.jpg")
-  ;/*this one works!*/
-    background-size:cover;
+.box{
+    background-image: url("images/beachbulb.jpg");/*this one works!*/
+    background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment:fixed;
     border-width: 1px;
     background-color:  white;
-    opacity: .8;
+    opacity: .6;
+    text-align: center;
+
 }
 /*End of Index CSS*/
 
+/*=============BACKGROUND IMAGES DO NOT WORK BUT KEPT THEM IN FOR REFERENCE==================*/
+/*=============WILL BE COMING BACK TO THIS LATER BUT WASN'T A REQUIRMENT, JUST A "WANT"======*/
+
 /*Start of About CSS*/
 
-#about body {
+.about-body {
     background-image: url("../images/curlwiresonblue.jpg"); /*image from unsplash*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment:fixed;
-    border-width: 1px;  
-    background-color: white;
+    border-width: 1px;
+    background-color:  white;
+    opacity: .6;
+    text-align: center;
+    font-weight: 900;
 }
 
 /*End of About CSS*/
+
 /*Start of Contact CSS*/
 
-#contact body {
+/*#contact body {
   
     background-image: url("../images/forestmanbulb.jpg"); /*image from pexels*/
     background-size: cover;
@@ -163,8 +168,9 @@ footer .wrapper {
     border-width: 1px;  
     background-color: white;
   }
+  */ /*THE ABOVE IS CODE i WAS GOING TO ADJUST BUT RUNNING OUT OF TIME!!!!*/
 
-  /*Contact Box*/
+  /*Contact Box*/ 
 
 /*Start of Services CSS*/
 
