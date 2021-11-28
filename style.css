@@ -25,7 +25,7 @@ header {
   justify-content: left;
 }
 
-/*Start of in body elements and attributes. Many are in header hence why they are here instead of lower*/
+/*Start of in-body elements and attributes. Many are in header hence why they are here instead of lower*/
 
 h1 {
   font-size: 24pt;
@@ -41,7 +41,7 @@ h2 {
 }
 
 h3{
-  font-family: 'Nunito', sans-serif; /*main font used*/
+  font-family: 'Nunito', sans-serif;
   font-size: 18pt;
   color: #1f72aaa1;
   font-weight: bolder;
@@ -49,7 +49,7 @@ h3{
 
 h6{
   font-size: 14pt;
-  font-family:'Merriweather', sans-serif;
+  font-family:'Merriweather', sans-serif;/*secondary font used*/
 }
 
 p {
@@ -102,7 +102,7 @@ nav {
   }
 /* end navigation */
 
-.wrapper img { width: 100%; }
+.wrapper img { width: 100%; }/*set for all wrapper images as to not loose quality. Individual images also styled according to their flex box, card or container accordingly*/
 
 /*Beginning of Footer*/
 
@@ -127,27 +127,20 @@ footer .wrapper {
 
 /*Start of Index CSS*/
 
-.box{
-    background-image: url("images/beachbulb.jpg");/*this one works!*/
+.box{/*background image set in box on homepage although couldn't get text to not be styled too with the opacity*/
+    background-image: url("images/beachbulb.jpg");
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment:fixed;
     border-width: 1px;
     background-color:  white;
-    opacity: .6;
+    opacity: .6;/*opacity set on box so the image wasn't as overpowering*/
     text-align: center;
-
 }
+
 /*End of Index CSS*/
 
-/*=============BACKGROUND IMAGES DO NOT WORK BUT KEPT THEM IN FOR REFERENCE==================*/
-/*=============WILL BE COMING BACK TO THIS LATER BUT WASN'T A REQUIRMENT, JUST A "WANT"======*/
-
-/*Start of About CSS*/
-
-
-/*End of About CSS*/
 
 /*Start of Contact CSS*/
 
@@ -184,45 +177,31 @@ section{
   padding:10px 10px;
   flex-direction: row;
   flex-wrap: nowrap;
-}
+}/*card set*/
 
-.card{
+.card {
  justify-content: space-evenly;
  align-content: stretch;
-}
+}/*card itself*/
 
 .card-body {  
   background-color:#5fb4ecd5;
   box-shadow: 5px 5px #176396d5; 
-}
+}/*cards body*/
 
 .card-img-top {
 justify-content: space-evenly;
-}
+} /*images in cards*/
 
 .card-text{
   font-family: 'Nunito', sans-serif, italic; 
   color:rgba(0, 0, 0, 0.473); 
   text-align: center;
-}
-
-/*Used for image sizing and orientation on services page*/
-
+}/*Used for image sizing and orientation on services page*/
 
 /*End of Services CSS*/
 
-/* STYLES ----------------------------------
-1. Global settings (resets such as border-box)
-2. Typography (headings, paragraphs, lists, buttons)
-3. Layout structure (body, header, footer, sidebar)
-4. Content blocks (cards, tables, forms, calls-to-action block)
-5. General classes (.clear, .center, .right, .left, .big-margin, etc.)
-6. Page-specific (styles specific to individual locations)
------------------------------------------------------*/
-
-/* ===============
-   GLOBAL SETTINGS
-   =============== */
+/* Hover effects for buttons*/
 
 input[type="reset"] {
   color: blue;
@@ -249,9 +228,7 @@ input[type="submit"]:hover {
   background-color: rgb(103, 153, 219);
 }
 
-/* ===============
-   STRUCTURE
-   =============== */
+/*form structure located on contacts page */
 
 .wrapper-form {
   border-radius: 5px;
@@ -266,9 +243,7 @@ input[type="submit"]:hover {
   justify-content: space-between;
 }
 
-/* ===============
-   FORM CONTROLS
-   =============== */
+/*FORM CONTROLS */
 
 input,
 select,
@@ -309,7 +284,7 @@ textarea {
 
 /*End of Contact CSS*/
 
-/*Call Button*/
+/*Call Button or ribbon across all pages so it stays stationary as page is scrolled as well as styling*/
 
 .call-btn {
     background-color: rgb(35, 54, 231);
