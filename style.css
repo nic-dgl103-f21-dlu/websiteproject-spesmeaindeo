@@ -146,24 +146,12 @@ footer .wrapper {
 
 /*Start of About CSS*/
 
-.about-box {
-    background-image: url("images/pexels-ekrulila-2332882.jpg"); /*image from unsplash*/
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment:fixed;
-    border-width: 2;
-    background-color:  white;
-    opacity: .9;
-    text-align: left;
-    padding: 5px;
-}
 
 /*End of About CSS*/
 
 /*Start of Contact CSS*/
 
-/*#contact body {
+#contact body {
   
     background-image: url("../images/forestmanbulb.jpg"); /*image from pexels*/
     background-size: cover;
@@ -173,7 +161,7 @@ footer .wrapper {
     border-width: 1px;  
     background-color: white;
   }
-  */ /*THE ABOVE IS CODE i WAS GOING TO ADJUST AS IT STILL WAS WORKING BUT RUNNING OUT OF TIME!!!!*/
+   /*THE ABOVE IS CODE i WAS GOING TO ADJUST AS IT STILL WAS WORKING BUT RUNNING OUT OF TIME!!!!*/
 
   /*Contact Box*/ 
 
@@ -181,10 +169,7 @@ footer .wrapper {
 
 #services body {
     background-color:white;    
-    background-size: cover;
-    background-position: center;
-    background-attachment:fixed;
-    background-repeat:no-repeat;
+    padding: 10px;
     border-width: 1px;
 }
 
